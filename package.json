@@ -1,0 +1,23 @@
+{
+  "name": "wol-api",
+  "version": "1.0.0",
+  "description": "API which takes a MAC address and sends a WOL command to it",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRauch1/wol-api.git"
+  },
+  "author": "Kaj Rauch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRauch1/wol-api/issues"
+  },
+  "homepage": "https://github.com/TheRauch1/wol-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "wol": "^1.0.7"
+  }
+}
