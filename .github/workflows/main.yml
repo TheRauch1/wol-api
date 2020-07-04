@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: philips-software/docker-ci-scripts@v2.2.1
         with:
-          dockerfile: 'dockerfile'
+          dockerfile: ''
           image-name: 'wol-api'
           tags: 'latest'
         env:
