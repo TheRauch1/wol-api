@@ -4,7 +4,7 @@ EXPOSE 3000
 
 WORKDIR /usr/src/app
 
-ADD app/ ./
+ADD . .
 
 RUN npm install
 
